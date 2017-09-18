@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Style Omega</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="username">Enter Username Here*</string>
+    <string name="password">Enter Password Here*</string>
+    <string name="loginButton">Login</string>
+    <string name="current_password">Enter Current Password*</string>
+    <string name="new_password">Enter New Password*</string>
+    <string name="reconfirm_password">Re-enter new password*</string>
+    <string name="resetPwdButton">Reset Password</string>
+    <string name="first_name">Enter First Name*</string>
+    <string name="last_name">Enter Last Name*</string>
+    <string name="contact_number">Enter Contact Number</string>
+    <string name="address">Enter Address*</string>
+    <string name="email">Enter Email Address*</string>
+    <string name="modify_button">Modify</string>
+    <string name="register_button">Register</string>
+    <string name="re_enter_password">Re-enter Password*</string>
+    <string name="continue_shopping">Continue Shopping At Style Omega</string>
+    <string name="add_review">Enter Your Review Here</string>
+    <string name="review_button">Review</string>
+    <string name="inquire">Inquire</string>
+    <string name="enquiry">Enter Your Enquiry Here</string>
+    <string name="forgot_password_btn">SUBMIT</string>
+</resources>

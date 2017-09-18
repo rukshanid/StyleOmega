@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+        <item android:title="Catergories">
+            <menu>
+                <item
+                    android:id="@+id/nav_women"
+                    android:title=" WOMEN" />
+                <item
+                    android:id="@+id/nav_men"
+                    android:title=" MEN" />
+                <item
+                    android:id="@+id/nav_kids"
+                    android:title=" KIDS" />
+            </menu>
+        </item>
+        <item android:title="Other">
+            <menu>
+        <item
+            android:id="@+id/nav_myaccount"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="Contact Us" />
+            </menu>
+        </item>
+
+    </group>
+
+
+
+</menu>

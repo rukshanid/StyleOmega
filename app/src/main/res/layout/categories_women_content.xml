@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rukshani.styleomega.Catergories_Women">
+
+
+    <ScrollView
+        android:id="@+id/scrollViewWomen"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/includeWomen"
+        app:layout_constraintTop_toTopOf="@+id/includeWomen"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <ImageView
+                    android:id="@+id/womenBlouses"
+                    android:layout_width="119dp"
+                    android:layout_height="102dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="goToDisplayItems"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/womentopsandblouses"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.162"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent" />
+
+                <ImageView
+                    android:id="@+id/womenDress"
+                    android:layout_width="150dp"
+                    android:layout_height="102dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goToDisplayItems"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.858"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.14"
+                    app:srcCompat="@drawable/womendress" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:text="  Tops and Blouses" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="80dp"
+                    android:text="  Dresses" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <ImageView
+                    android:id="@+id/womenSkirts"
+                    android:layout_width="119dp"
+                    android:layout_height="102dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:onClick="goToDisplayItems"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.436"
+                    app:srcCompat="@drawable/womensskirts" />
+
+
+                <ImageView
+                    android:id="@+id/womenJeans"
+                    android:layout_width="119dp"
+                    android:layout_height="102dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="35dp"
+                    android:onClick="goToDisplayItems"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.858"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.418"
+                    app:srcCompat="@drawable/womensjeans" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:text="Skirts" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginStart="120dp"
+                    android:text="Jeans" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="120dp"
+                android:weightSum="1"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <ImageView
+                    android:id="@+id/womenTee"
+                    android:layout_width="128dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goToDisplayItems"
+                    android:scaleType="fitEnd"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.736"
+                    app:srcCompat="@drawable/womenstshirt" />
+
+                <ImageView
+                    android:id="@+id/womenAcc"
+                    android:layout_width="88dp"
+                    android:layout_height="106dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="0.13"
+                    android:onClick="goToDisplayItems"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.731"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.699"
+                    app:srcCompat="@drawable/womenaccessory" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:text="Tee Shirts" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginStart="80dp"
+                    android:text="Accessories" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="120dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <ImageView
+                    android:id="@+id/womenbags"
+                    android:layout_width="126dp"
+                    android:layout_height="114dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goToDisplayItems"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/womenbags"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.115"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <ImageView
+                    android:id="@+id/womenshoes"
+                    android:layout_width="119dp"
+                    android:layout_height="102dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goToDisplayItems"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.789"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.972"
+                    app:srcCompat="@drawable/womensshoes" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="601dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:text="Bags" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginStart="120dp"
+                    android:text="Shoes" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <include
+        android:id="@+id/includeWomen"
+        layout="@layout/app_bar_home_page"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollViewWomen" />
+</android.support.constraint.ConstraintLayout>

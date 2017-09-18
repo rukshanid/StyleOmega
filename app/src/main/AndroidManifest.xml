@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rukshani.styleomega">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Catergories_Women"
+            android:parentActivityName=".HomePage">
+
+            <!-- The meta-data tag is required if you support the API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".catergories_men"
+            android:parentActivityName=".HomePage">
+
+            <!-- The meta-data tag is required if you support the API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".catergories_kids"
+            android:parentActivityName=".HomePage">
+
+            <!-- The meta-data tag is required if you support the API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity android:name=".Login">
+            android:parentActivityName=".HomePage">
+
+            <!-- The meta-data tag is required if you support the API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity android:name=".MyAccount" />
+        <activity
+            android:name=".ModifyAccount"
+            android:parentActivityName=".MyAccount"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".MyAccount"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Register" />
+        <activity android:name=".DisplayItems" />
+        <activity
+            android:name=".DisplayItem"
+            android:parentActivityName=".DisplayItem"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ShoppingCart" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".Confirmation" />
+        <activity
+            android:name=".Purchase"
+            android:parentActivityName=".Purchase"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Review"
+            android:parentActivityName=".DisplayItem"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayItem" />
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:parentActivityName=".DisplayItem"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayItem" />
+        </activity>
+        <activity
+            android:name=".Inbox"
+            android:parentActivityName=".MyAccount"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SearchResults" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".ForgotPassword"></activity>
+    </application>
+
+</manifest>
